@@ -20,7 +20,25 @@ struct HomeView: View {
             } placeholder: {
                 ProgressView()
             }
+            
+            HStack {
+                Button {
+                    
+                } label: {
+                    Text(Constants.playString)
+                        .ghostButton()
+                }
+                
+                Button {
+                    
+                } label: {
+                    Text(Constants.downloadString)
+                        .ghostButton() 
+                }
+            }
         }
+        
+        
     }
 }
 
